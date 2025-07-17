@@ -1,0 +1,71 @@
+/*
+  "--cs" for custom css override classes
+
+  --- Generals ---
+  - Custom font url | https://fast.fonts.net/cssapi/12006fbc-93aa-46b4-b1a2-436f9d660c2c.css
+  - Custom font family (with font stack - i.e. 'Source Sans Pro', sans-serif) | "Frutiger Next W01",Helvetica,Arial,sans-serif
+  - Custom font size | 12px
+  - Widget bar border color | #c7c7c7
+  - Widget bar & active tab background color | #F9F9F9
+  - Show tab icons [BOOLEAN] - if (true) "inline-block" else "none" | True
+  ***
+  - Custom brand primary color | #4cb9ea
+  - Custom brand primary color - Light | #73c5e9
+  - Custom brand primary color - Dark | #78abc1
+  - Custom brand secondary color | #898989
+
+  --- Stage ---
+  - Stage label text color
+
+  --- Tabs ---
+  - Active tab text & icon color | #516167
+  - Not Active tabs background color | #d6d9dc
+  - Not Active tabs text & icon color | #93989a
+  - Not Active tabs text & icon color :hover | #505659
+
+  --- Tiles ---
+  - Panel default (Widget, Row and Social panels) background color | #FFFFFF
+  - Panel default border color
+  - Panel default border radius value | 4px
+  - Panel :hover box shadow value (i.e. "0 6px 10px rgba(0, 0, 0, 0.1)") | 0 6px 10px rgba(0,0,0,.35)
+
+  --- Properties panel ---
+  - Properties panel title background  | #FFF
+  - Properties panel text & icons color | #505659
+  - Properties panel title border | #E1E4E7
+
+  --- Widgets ---
+  - Widgets section title background | #eaeaea
+  - Widgets section title color | #505659
+  - Widget bottom border color (widget divider) | #e1e4e7
+  - Widget label color | #8f9699
+  *** Inputs ***
+  - Inputs border color | #cccccc
+  - Inputs background color | #ffffff
+  - Inputs text color | #505659
+  *** Toggle ***
+  - Background toggle -> off | #ffffff
+  - Background Switch -> off | #cccccc
+  - Background Switch -> on | #ffffff
+  *** Icons
+  - Color icon base |
+  - Color icon base - Light |
+  - Color icon base - Dark |
+
+  --- Customize Widgets - Icon Organizer widget ---
+  - Icon organizer panel background color | #ffffff
+  - Icon organizer icon thumbnail background | #eeeeee
+  - Icon organizer border color | #dddddd
+  - Icon organizer delete cta color | #bb3636
+  - Icon manager Pop background color | rgba(80,86,89,.95)
+  - Icon manager Pop tabs border-color | #7b7b7b
+  - Icon manager Pop tabs color | #a0a0a0
+  - Icon manager Pop tabs active color | #ffffff
+  - Icon manager Pop icons color | #ffffff
+*/
+
+@import url(https://fonts.googleapis.com/css?family=Roboto);
+
+.preview-close-button--cs {
+  display: none;
+}
