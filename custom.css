@@ -73,3 +73,7 @@
 .href-link-file--cs {
   display: none;
 }
+
+.module-box--image .stage-placeholder-button--cs {
+  display: none
+}
