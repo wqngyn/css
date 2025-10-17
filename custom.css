@@ -66,6 +66,14 @@
 
 @import url(https://fonts.googleapis.com/css?family=Roboto);
 
+.href-link-file--cs {
+  display: none;
+}
+
+.module-box--image .stage-placeholder-button--cs {
+  display: none
+}
+
 .custom-class {
   color: red;
 }
