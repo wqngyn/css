@@ -66,14 +66,28 @@
 
 @import url(https://fonts.googleapis.com/css?family=Roboto);
 
-.href-link-file--cs {
-  display: none;
+/* Stage: make it wide but leave space for sidebar */
+.scrollable__panel--cs {
+  width: 1280px;           /* your desired messageWidth */
+  max-width: 1280px;
+  margin-left: auto;
+  margin-right: 320px;     /* leave room for sidebar */
+  overflow-x: auto;        /* allow horizontal scroll if necessary */
 }
 
-.module-box--image .stage-placeholder-button--cs {
-  display: none
+/* Sidebar: fix it to the right */
+.widget-bar--cs {
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 320px;             /* adjust as needed */
+  height: 100%;
+  overflow-y: auto;
+  z-index: 5;
 }
 
-.custom-class {
-  color: red;
+/* Optional: ensure stage and toolbar stacking */
+.scrollable__panel--cs,
+.widget-bar--cs {
+  box-sizing: border-box;
 }
