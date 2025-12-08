@@ -91,3 +91,7 @@
 .widget-bar--cs {
   box-sizing: border-box;
 }
+
+.button-solid--cs {
+  background: red;
+}
