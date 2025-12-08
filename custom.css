@@ -70,20 +70,11 @@
 .scrollable__panel--cs {
   width: 1280px;           /* your desired messageWidth */
   max-width: 1280px;
-  margin-left: auto;
-  margin-right: 320px;     /* leave room for sidebar */
-  overflow-x: auto;        /* allow horizontal scroll if necessary */
 }
 
 /* Sidebar: fix it to the right */
 .widget-bar--cs {
-  position: fixed;
-  top: 0;
-  right: 0;
   width: 320px;             /* adjust as needed */
-  height: 100%;
-  overflow-y: auto;
-  z-index: 5;
 }
 
 /* Optional: ensure stage and toolbar stacking */
