@@ -75,9 +75,3 @@
 .widget-bar--cs {
   width: 320px;             /* adjust as needed */
 }
-
-/* Optional: ensure stage and toolbar stacking */
-.scrollable__panel--cs,
-.widget-bar--cs {
-  box-sizing: border-box;
-}
