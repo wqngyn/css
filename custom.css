@@ -68,8 +68,7 @@
 
 /* Stage: make it wide but leave space for sidebar */
 .scrollable__panel--cs {
-  width: 1280px;           /* your desired messageWidth */
-  max-width: 1280px;
+  width: calc(100% - 320px); /* adjust based on sidebar */;
 }
 
 /* Sidebar: fix it to the right */
@@ -81,8 +80,4 @@
 .scrollable__panel--cs,
 .widget-bar--cs {
   box-sizing: border-box;
-}
-
-.button-solid--cs {
-  background: red;
 }
