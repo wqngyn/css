@@ -66,12 +66,6 @@
 
 @import url(https://fonts.googleapis.com/css?family=Roboto);
 
-/* Stage: make it wide but leave space for sidebar */
-.scrollable__panel--cs {
-  width: calc(100% - 320px); /* adjust based on sidebar */;
-}
-
-/* Sidebar: fix it to the right */
-.widget-bar--cs {
-  width: 320px;             /* adjust as needed */
+.display-condition-card--cs {
+  display: none;
 }
