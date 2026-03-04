@@ -76,3 +76,24 @@
   background: url(https://www.svgrepo.com/show/361517/heading.svg) no-repeat center;
   background-size: contain;
 }
+
+.content-labels--cs code[data-bee-code] {
+  border: none !important;
+  border-radius: 5px;
+  background-color: #effcff;
+  color: #34778f;
+  padding-left: 24px !important;
+}
+
+.content-labels--cs code[data-bee-code]::after {
+  display: inline-block;
+  position: absolute;
+  top: 50%;
+  left: 4px;
+  transform: translateY(-50%);
+  content: ''; 
+  background-image: url("./cube.svg") !important;
+  background-size: contain;
+  width: 16px;
+  height: 16px;
+}
