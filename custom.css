@@ -66,12 +66,13 @@
 
 @import url(https://fonts.googleapis.com/css?family=Roboto);
 
-/* First item */
-.sidebar-draggable--cs:nth-child(1) svg {
-  display: none;
+/* Hide our default icons */
+.sidebar-draggable-heading--cs .image-drag svg {
+  visibility: hidden;
 }
 
-/* Third item */
-.sidebar-draggable--cs:nth-child(3) svg {
-  display: none;
+/* Replace them with yours */
+.sidebar-draggable-heading--cs .image-drag {
+  background: url(https://www.svgrepo.com/show/361517/heading.svg) no-repeat center;
+  background-size: contain;
 }
