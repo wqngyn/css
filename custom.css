@@ -99,9 +99,9 @@
 }
 
 .image-selector-url-input--cs {
-	visibility: hidden;
+	display: none;
 }
 
 .alternate-txt--cs {
-	visibility: hidden;
+	display: none;
 }
