@@ -97,3 +97,11 @@
   width: 16px;
   height: 16px;
 }
+
+.image-selector-url-input--cs {
+	visibility: hidden;
+}
+
+.alternate-txt--cs {
+	visibility: hidden;
+}
