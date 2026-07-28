@@ -112,5 +112,5 @@
 
 .preview-displayconditions--cs .dropdown-menu-button--cs {
 	width: 20rem;
-	text-align: left;
+	text-align: left !important;
 }
