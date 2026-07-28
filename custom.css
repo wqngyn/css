@@ -110,6 +110,8 @@
   display: none;
 }
 
-.preview-displayconditions--cs {
-	width: 20rem;
+.preview-displayconditions--cs .dropdown-menu-button--cs {
+	width: 10rem !important;
+	justify-content: flex-start !important;
+	text-align: left !important;
 }
