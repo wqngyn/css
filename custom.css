@@ -109,3 +109,7 @@
 .floating-toolbar--cs [title="Anonymous"] {
   display: none;
 }
+
+.dropdown-menu-item--cs {
+	width: 4 rem;
+}
