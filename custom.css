@@ -111,7 +111,6 @@
 }
 
 .preview-displayconditions--cs .dropdown-menu-button--cs {
-	width: 20rem !important;
-	justify-content: flex-start !important;
-	text-align: left !important;
+	width: 20rem;
+	text-align: left;
 }
