@@ -114,3 +114,15 @@
 	width: 20rem;
 	justify-content: space-between !important;
 }
+
+
+
+.comments-panel-thread__footer--cs [data-qa="comment_submit"] {
+  color: #b22222;
+  background-color: #1a1a1a;
+  border-color: #1a1a1a;
+}
+
+.comment-body--cs {
+  color: #1a1a1a;
+}
