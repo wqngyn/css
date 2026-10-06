@@ -107,7 +107,8 @@
 }
 
 .floating-toolbar--cs [title="Anonymous"] {
-  display: none;
+  /* display: none; */
+  background-image: url("https://cdn-icons-png.flaticon.com/512/173/173485.png") !important;
 }
 
 .preview-displayconditions--cs .dropdown-menu-button--cs {
