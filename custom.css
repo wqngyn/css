@@ -106,16 +106,14 @@
 	display: none;
 }
 
-.floating-toolbar--cs [title="Anonymous"] {
-  /* display: none; */
-  background-image: url("https://cdn-icons-png.flaticon.com/512/173/173485.png") !important;
+.collaborator-avatar--cs {
+	background-color: red;
 }
 
 .preview-displayconditions--cs .dropdown-menu-button--cs {
 	width: 20rem;
 	justify-content: space-between !important;
 }
-
 
 
 .comments-panel-thread__footer--cs form p button {
